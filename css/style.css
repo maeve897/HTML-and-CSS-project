@@ -6,7 +6,6 @@ body {
 main {
     
     display: grid;
-    border: solid black;
     column-count: 2;
 
     
@@ -60,12 +59,10 @@ p{
 
 #secondColumn{
     grid-column-start: 2;
-    border: solid red 1px;
     max-width: 600px;
     min-width:400px
 }
 #firstColumn{
    margin-left:20px;
-   border: solid red 1px;
 
 }
