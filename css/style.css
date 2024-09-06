@@ -1,0 +1,71 @@
+
+
+body {
+    background-color: darkgreen;
+}
+main {
+    
+    display: grid;
+    border: solid black;
+    column-count: 2;
+
+    
+}
+
+ #squirtle{
+    max-height: 50%;
+    max-width: 50%;
+    min-height: 50%;
+    border: lightblue 5px solid;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#dog{
+    border: 10px solid burlywood;
+    border-radius: 48%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+a {
+font-size: 1.2rem;
+color: yellowgreen
+}
+
+li {
+    color:darkred;
+}
+
+p{
+    color: darkred;
+}
+
+.list{
+    margin:20px;
+}
+
+#cats{
+    max-height: 400px;
+}
+
+#secondColumn{
+    grid-column-start: 2;
+    border: solid red 1px;
+    max-width: 600px;
+    min-width:400px
+}
+#firstColumn{
+   margin-left:20px;
+   border: solid red 1px;
+
+}
